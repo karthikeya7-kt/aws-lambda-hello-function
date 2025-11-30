@@ -20,6 +20,34 @@ This is a simple serverless function built using **AWS Lambda** and exposed usin
 5. Created an HTTP API Gateway trigger  
 6. Verified output using the public endpoint
 
+## Architecture
+       ┌─────────────────────────────┐
+       │         Client/User         │
+       │  (Browser / Postman / App)  │
+       └──────────────┬──────────────┘
+                      │  HTTP Request
+                      ▼
+       ┌─────────────────────────────┐
+       │     Amazon API Gateway      │
+       │ - Receives HTTP request     │
+       │ - Routes to Lambda Function │
+       └──────────────┬──────────────┘
+                      │  Invoke
+                      ▼
+       ┌─────────────────────────────┐
+       │       AWS Lambda            │
+       │ - Executes your Python code │
+       │ - Returns JSON Response     │
+       └──────────────┬──────────────┘
+                      │ Response
+                      ▼
+       ┌─────────────────────────────┐
+       │         Client/User         │
+       │ Displays "Hello from Lambda"│
+       └─────────────────────────────┘
+## What I Built
+A simple serverless application where an API Gateway endpoint triggers an AWS Lambda function written in Python. The project demonstrates deploying, testing, and exposing a Lambda function through a public HTTP API. Includes screenshots and demo video.
+
 ## Screenshots
 created lambda function https://github.com/karthikeya7-kt/aws-lambda-hello-function/blob/main/Screenshot%202025-11-29%20151721.png
 simple python code https://github.com/karthikeya7-kt/aws-lambda-hello-function/blob/main/Screenshot%202025-11-29%20151831.png
@@ -31,6 +59,7 @@ demo part 1
 https://github.com/karthikeya7-kt/aws-lambda-hello-function/blob/main/lambda%201.mp4
 demo part 2
 https://github.com/karthikeya7-kt/aws-lambda-hello-function/blob/main/lambda%202.mp4
+
 
 
 

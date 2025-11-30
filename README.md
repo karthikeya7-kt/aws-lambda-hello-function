@@ -21,15 +21,17 @@ This is a simple serverless function built using **AWS Lambda** and exposed usin
 6. Verified output using the public endpoint
 
 ## Screenshots
-https://github.com/karthikeya7-kt/aws-lambda-hello-function/blob/main/Screenshot%202025-11-29%20151831.png
-
-
-
+created lambda function https://github.com/karthikeya7-kt/aws-lambda-hello-function/blob/main/Screenshot%202025-11-29%20151721.png
+simple python code https://github.com/karthikeya7-kt/aws-lambda-hello-function/blob/main/Screenshot%202025-11-29%20151831.png
+code tested https://github.com/karthikeya7-kt/aws-lambda-hello-function/blob/main/Screenshot%202025-11-29%20151812.png
+triggered api link https://github.com/karthikeya7-kt/aws-lambda-hello-function/blob/main/Screenshot%202025-11-29%20151643.png
+resulu appeared on web by using api link https://github.com/karthikeya7-kt/aws-lambda-hello-function/blob/main/Screenshot%202025-11-29%20151628.png
 ## Demo Video
 demo part 1
 https://github.com/karthikeya7-kt/aws-lambda-hello-function/blob/main/lambda%201.mp4
 demo part 2
 https://github.com/karthikeya7-kt/aws-lambda-hello-function/blob/main/lambda%202.mp4
+
 
 
 

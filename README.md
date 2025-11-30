@@ -25,5 +25,6 @@ This is a simple serverless function built using **AWS Lambda** and exposed usin
 
 ## Demo Video
 https://github.com/karthikeya7-kt/aws-lambda-hello-function/blob/main/lambda%201.mp4
+https://github.com/karthikeya7-kt/aws-lambda-hello-function/blob/main/lambda%202.mp4
 
 
